@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <a className="brand" href="#top" aria-label="CloudPulse home"><span className="brand-mark"><Cloud size={20} /></span><span>cloud<span className="brand-light">pulse</span></span></a>
+        <a className="brand" href="#top" aria-label="CloudPulse home"><span className="brand-mark"><Cloud size={20} /></span><span>cloud<span className="brand-light">pulse+</span></span></a>
         <div className="workspace-label">WORKSPACE</div>
         <button className={`nav-item ${activeTab === 'Overview' ? 'selected' : ''}`} onClick={() => setActiveTab('Overview')}><Activity size={18} /> Overview</button>
         <button className={`nav-item ${activeTab === 'Services' ? 'selected' : ''}`} onClick={() => setActiveTab('Services')}><Layers3 size={18} /> Services</button>
